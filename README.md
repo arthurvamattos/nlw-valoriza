@@ -1,25 +1,35 @@
-# NLW Valoriza
+<h1 align="center">NLW Valoriza</h1>
 
-## Regras
+<p align="center">Project of Next Level Week Together - Sharing of compliments</p>
 
-- Cadastro de usuário
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
 
-  [ x ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/23246257/124021056-176b0980-d9b9-11eb-981b-7dbdb7fcbcc8.png" alt="overview" height="420">
+</div>
 
-  [ x ] Não é permitido cadastrar usuário sem e-mail
+<hr />
 
-- Cadastro de TAG
+## Features
+This app features the latest tools and practices in backend development!
 
-  [ x ] Não é permitido cadastrar tag sem nome
+- Node Js
+- Typescript
+- Express
+- JSONWebToken
 
-  [ x ] Não é permitido cadastrar mais de uma tag com o mesmo nome
+## Getting started
 
-  [ x ] Não é permitido o cadastro por usuários que não sejam administradores
+1. Clone this repo using git clone `https://github.com/arthurvamattos/nlwValoriza.git`
+2. Move yourself to the appropriate directory: `cd nlwValoriza`
+3. Run `yarn` to install dependencies
+4. Create a `.env` file and add the your TOKEN_SECRET key
+5. Run `yarn dev` to run the server
 
-- Cadastro de elogios
+## License
 
-  [ ] Não é permitido um usuário cadastrar um elogio para si
-
-  [ ] Não é permitido cadastrar elogios para usuários inválidos
-
-  [ ] O usuário precisa estar autenticado na aplicação
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
